@@ -8,6 +8,10 @@
 
 ## A loose config example
 
+```toml
+ntex-cors = { package = "clia-ntex-cors-mod", version = "0.2" }
+```
+
 ```rust
 .wrap(
     Cors::new()
