@@ -1,2 +1,7 @@
-# ntex-cors-mod
-A modification for ntex-cors, not require a `ORIGIN` header to produce CORS header.
+# Cors Middleware for ntex framework
+
+## Documentation & community resources
+
+* [API Documentation](https://docs.rs/ntex-cors/)
+* Cargo package: [ntex-cors](https://crates.io/crates/ntex-cors)
+* Minimum supported Rust version: 1.42 or later
