@@ -1,6 +1,6 @@
 [package]
 name = "clia-ntex-cors-mod"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["ntex contributors <team@ntex.rs>"]
 description = "A modification for ntex-cors, not require a `ORIGIN` header to produce CORS header."
 readme = "README.md"
@@ -16,9 +16,9 @@ name = "clia_ntex_cors_mod"
 path = "src/lib.rs"
 
 [dependencies]
-ntex = "0.5.14"
+ntex = "0"
 derive_more = "0.99"
 futures = "0.3"
 
 [dev-dependencies]
-ntex = { version = "0.5", features=["tokio"] }
+ntex = { version = "0", features=["tokio"] }

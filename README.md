@@ -29,3 +29,7 @@ Will produce CORS headers for every request:
 vary: Origin
 access-control-allow-origin: *
 ```
+
+## Changes
+
+* Version 0.2.1 - Not locking ntex version.
